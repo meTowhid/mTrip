@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "863725627072",
+    "firebase_url": "https://mtrip-94b99.firebaseio.com",
+    "project_id": "mtrip-94b99",
+    "storage_bucket": "mtrip-94b99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863725627072:android:25b94f6c6e15c174",
+        "android_client_info": {
+          "package_name": "towhid.icurious.mtrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863725627072-o1osblollvcrh7psqqf4lq9va3ngvv3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "towhid.icurious.mtrip",
+            "certificate_hash": "15FFB7204C48ECD26B22E3328B2D17E82C7E7FDA"
+          }
+        },
+        {
+          "client_id": "863725627072-1safsostordfsqilp8q46ptkrgvete8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAeovXN0VIxqZPO7efvYgy3KZZuEF3M38"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863725627072-1safsostordfsqilp8q46ptkrgvete8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

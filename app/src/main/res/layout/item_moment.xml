@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="moment"
+            type="towhid.icurious.mtrip.model.mMoment" />
+
+        <variable
+            name="handler"
+            type="towhid.icurious.mtrip.tab.fragments.MomentClickHandler" />
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="@{handler.onClick}"
+        android:onLongClick="@{handler.onLongClick}">
+
+        <RelativeLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/circleView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                tools:imageUrl="@{moment.image}" />
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/circleView"
+                android:background="#e3ffffff"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="@{moment.name}" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</layout>
